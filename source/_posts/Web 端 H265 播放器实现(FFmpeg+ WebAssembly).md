@@ -3,7 +3,6 @@
 title: Web 端 H265 播放器实现(FFmpeg+ WebAssembly)
 ---
 
-# Web 端 H265 播放器实现(FFmpeg+ WebAssembly)
 ### 环境准备
 * emsdk
 * ffmpeg

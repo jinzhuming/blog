@@ -3,7 +3,6 @@
 title: pm2 开机启动
 ---
 
-# pm2 开机启动	
 ### 执行命令
 ```
  pm2 start  webhooks.js

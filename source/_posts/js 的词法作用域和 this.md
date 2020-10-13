@@ -3,7 +3,6 @@
 title: js 的词法作用域和 this
 ---
 
-# js 的词法作用域和 this
 
 > **静态作用域**又叫做词法作用域，采用词法作用域的变量叫**词法变量**。词法变量有一个在编译时静态确定的作用域。词法变量的作用域可以是一个函数或一段代码，该变量在这段代码区域内可见（visibility）；在这段区域以外该变量不可见（或无法访问）。词法作用域里，取变量的值时，会检查函数定义时的文本环境，捕捉函数定义时对该变量的绑定。大多数现在程序设计语言都是采用静态作用域规则，如  [C/C++](https://zh.wikipedia.org/wiki/C/C%2B%2B) 、 [C#](https://zh.wikipedia.org/wiki/C%E2%99%AF) 、 [Python](https://zh.wikipedia.org/wiki/Python) 、 [Java](https://zh.wikipedia.org/wiki/Java) 、 [JavaScript](https://zh.wikipedia.org/wiki/JavaScript) ……相反，采用**动态作用域**的变量叫做**动态变量**。只要程序正在执行定义了动态变量的代码段，那么在这段时间内，该变量一直存在；代码段执行结束，该变量便消失。这意味着如果有个函数 f，里面调用了函数 g，那么在执行 g 的时候，f 里的所有局部变量都会被 g 访问到。而在静态作用域的情况下，g 不能访问 f 的变量。动态作用域里，取变量的值时，会由内向外逐层检查函数的调用链，并打印第一次遇到的那个绑定的值。显然，最外层的绑定即是全局状态下的那个值。采用动态作用域的语言有  [Pascal](https://zh.wikipedia.org/wiki/Pascal) 、 [Emacs Lisp](https://zh.wikipedia.org/wiki/Emacs_Lisp) 、 [Common Lisp](https://zh.wikipedia.org/wiki/Common_Lisp) （兼有静态作用域）、 [Perl](https://zh.wikipedia.org/wiki/Perl) （兼有静态作用域）。C/C++ 是静态作用域语言，但在宏中用到的名字，也是动态作用域。  
 

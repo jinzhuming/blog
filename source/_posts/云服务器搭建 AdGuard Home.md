@@ -3,9 +3,6 @@
 title: 云服务器搭建 AdGuard Home
 ---
 
-云服务器搭建 AdGuard Home
-
-
 > [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 是一款全网广告拦截与反跟踪软件，AdGuard Home 项目是著名广告拦截器提供商 AdGuard 开源的一个 DNS Server 版本。AdGuard Home 可以将广告与追踪相关的域名屏蔽，同时你不再需要安装任何客户端软件。AdGuard Home 的工作原理是在 DNS 的域名解析过程里拦截网页上的广告。  
 > 简单来说 AdGuard Home 是一个支持广告过滤和家长控制的开源公共 DNS 服务，如同 Google 的公共 DNS 服务 8.8.8.8。AdGuard Home 同时也支持 DNS over TLS 和 DNS over HTTPS。  
 
