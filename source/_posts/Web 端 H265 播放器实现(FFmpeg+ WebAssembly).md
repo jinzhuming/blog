@@ -1,3 +1,8 @@
+
+---
+title: Web 端 H265 播放器实现(FFmpeg+ WebAssembly)
+---
+
 # Web 端 H265 播放器实现(FFmpeg+ WebAssembly)
 ### 环境准备
 * emsdk
@@ -182,3 +187,4 @@ I assume you are trying to use ffmpeg as a library? If so you probably want to i
 * [GitHub - goldvideo/h265player: Web版H265播放器，基于JS解封装、WebAssembly(FFmpeg)解码，利用Canvas投影、AudioContext播放音频。](https://github.com/goldvideo/h265player)
 * [FFmpeg编译过程 - 简书](https://www.jianshu.com/p/d08c0cff8a77)
 * [BUG unknown file type · Issue #12344 · emscripten-core/emscripten · GitHub](https://github.com/emscripten-core/emscripten/issues/12344)
+

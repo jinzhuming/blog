@@ -1,3 +1,8 @@
+
+---
+title: hello-world
+---
+
 ---
 title: Hello World
 ---
@@ -36,3 +41,4 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
